@@ -2,6 +2,8 @@
 
 Discord support https://discord.gg/QHHAZu7e2A
 
+Upstream: https://github.com/Audionut/Upload-Assistant
+
 # L4G's Upload Assistant
 
 A simple tool to take the work out of uploading.
@@ -36,7 +38,10 @@ Built with updated BDInfoCLI from https://github.com/rokibhasansagar/BDInfoCLI-n
    - Also needs MediaInfo and ffmpeg installed on your system
       - On Windows systems, ffmpeg must be added to PATH (https://windowsloop.com/install-ffmpeg-windows-10/)
       - On linux systems, get it from your favorite package manager
-   - Clone the repo to your system `git clone https://github.com/Audionut/Upload-Assistant.git` - or download a zip of the source
+   - Clone the repo to your system `git clone https://github.com/groggy9788/Upload-Assistant.git` - or download a zip of the source
+   - Use [pyenv](https://github.com/pyenv/pyenv) to install python 3.12 `pyenv install 3.12.0`
+   - Swap to 3.12 `pyenv install 3.12 && pyenv global 3.12`
+   - Create a venv `python3 -m venv .venv && source .venv/bin/activate`
    - Copy and Rename `data/example-config.py` to `data/config.py`
    - Edit `config.py` to use your information (more detailed information in the [wiki](https://github.com/Audionut/Upload-Assistant/wiki))
       - tmdb_api (v3) key can be obtained from https://developers.themoviedb.org/3/getting-started/introduction

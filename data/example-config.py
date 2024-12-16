@@ -271,6 +271,11 @@ config = {
             "announce_url": "get from upload page",
             # "anon": True
         },
+        "SEEDPOOL": {
+           "api_key": "SEEDPOOL api key",
+           "announce_url": "https://seedpool.org/announce/customannounceurl",
+           # "anon": False
+        },
         "SHRI": {
             "api_key": "SHRI api key",
             "announce_url": "https://shareisland.org/announce/customannounceurl",
